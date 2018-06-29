@@ -10,4 +10,4 @@ function adjacentElementsProduct(inputArray: number[]): number {
     return largestProduct;
 }
 
-console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]));
+console.log(adjacentElementsProduct([3, 6, -2, -5, 8, 3]));
