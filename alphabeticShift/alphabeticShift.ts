@@ -10,13 +10,7 @@ function alphabeticShift(inputString: string): string {
         'v': 'w', 'w': 'y', 'y': 'z',
         'z': 'a'
     };
-    let inputShifted = inputString.split('');
-
-    for (let i = 0; i < inputShifted.length; i++) {
-        inputShifted[i] = alphabet[inputShifted[i]];
-    }
-
-    return inputShifted.join('');
+   
 }
 
 console.log(alphabeticShift('crazy'));
