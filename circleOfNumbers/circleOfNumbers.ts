@@ -14,3 +14,10 @@ function circleOfNumbers(n: number, firstNumber: number): number {
 }
 
 console.log(circleOfNumbers(10, 2));
+
+
+function circleOfNumbers2(n: number, firstNumber: number): number {
+
+}
+
+
