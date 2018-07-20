@@ -4,5 +4,15 @@ function evenDigitsOnly(n: number): boolean {
     return digits.every((digit) => parseInt(digit) % 2 === 0);
 }
 
-console.log(evenDigitsOnly(248622));
-console.log(evenDigitsOnly(642386));
+function evenDigitsOnly2(n: number): boolean {
+    const digit = n.toString().split('');
+    let count;
+    digit.forEach((element) => {
+        if(element % 2 !==0) {
+            return false
+        };
+    }
+    return true
+}f
+console.log(evenDigitsOnly2(248622));
+console.log(evenDigitsOnly2(642386));

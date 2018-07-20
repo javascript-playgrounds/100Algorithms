@@ -5,6 +5,7 @@ function fareEstimator(ride_time: number, ride_distance: number, cost_per_minute
         fareCost.push(ride_time * cost_per_minute[i] + ride_distance * cost_per_mile[i]);
     }
 
+    
     return fareCost;
 }
 
