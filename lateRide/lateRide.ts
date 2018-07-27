@@ -1,8 +1,10 @@
 function lateRide(n: number): number {
     const hours = Math.floor(n / 60);
     const minutes = n % 60;
+    
     const time = hours.toString().concat(minutes.toString()).split('').map((char) =>
-    parseInt(char)
+    parseInt(char);
+    console.log(hours, minutes, time)
 );
 
     return time.reduce((a, b) => a + b);
